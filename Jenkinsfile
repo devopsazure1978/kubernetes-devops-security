@@ -12,12 +12,6 @@ pipeline {
             steps {
               sh "mvn test"
             }
-        }   
-      stage('Teste Uniti') {
-            steps {
-              sh "mvn test"
-            }
-        }   
-    
+        }  
     }
 }

@@ -13,7 +13,7 @@ pipeline {
               sh "mvn test"
             }
         }   
-        stage('Teste Unit) {
+        stage('Teste Uniti) {
             steps {
               sh "mvn test"
             }
